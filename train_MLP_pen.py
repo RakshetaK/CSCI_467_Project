@@ -23,7 +23,7 @@ class MLP(nn.Module):
 epochs = [200, 300, 400, 500]
 learning_rate = [0.001, 0.0005]
 
-X_train, X_dev, y_train, y_dev = split_train("C:/Users/15rak/Downloads/CSCI_467_Project/dataset_467/pen+based+recognition+of+handwritten+digits/pendigits.tra")
+X_train, X_dev, y_train, y_dev = split_train("dataset_467/pen+based+recognition+of+handwritten+digits/pendigits.tra")
 
 
 pen_model = MLP(input_size=16)
